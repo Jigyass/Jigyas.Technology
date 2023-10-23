@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
-const StartingPage: React.FC = () => {
+interface StartingPageProps {
+  onSkipOrSubmit: () => void;
+}
+
+const StartingPage: React.FC<StartingPageProps> = ({ onSkipOrSubmit }) => {
   const [email, setEmail] = useState<string>("");
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -9,12 +13,12 @@ const StartingPage: React.FC = () => {
 
   const handleSkip = () => {
     console.log("User skipped");
-    // Navigate to the next page or perform any other action
+    onSkipOrSubmit();
   };
 
   const handleSubmit = () => {
     console.log("Email submitted:", email);
-    // Store the email or perform any other action
+    onSkipOrSubmit();
   };
 
   return (
@@ -34,7 +38,7 @@ const StartingPage: React.FC = () => {
         />
       </div>
       <div className="mt-4">
-        <button className="btn btn-primary mr-2" onClick={handleSubmit}>
+        <button className="btn btn-primary me-2" onClick={handleSubmit}>
           Submit
         </button>
         <button className="btn btn-secondary" onClick={handleSkip}>
