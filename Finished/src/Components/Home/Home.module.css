@@ -38,7 +38,7 @@
 }
 
 .btnHome{
-    margin-top: 100px;
+    margin-top: 50px;
     color: white;
     width:200px;
     height: 52px;
@@ -53,6 +53,10 @@
     line-height: 28px;
     cursor: pointer;
 }
+.buttonVideo {
+    text-align: center;
+}
+
 .btnHome2{
     color: white;
     width: 140px;
