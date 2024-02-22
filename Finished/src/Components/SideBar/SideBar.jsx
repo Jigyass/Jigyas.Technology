@@ -37,35 +37,35 @@ const SideBar = () => {
               <Offcanvas.Body>
                 <Nav className="justify-content-start flex-grow-1 ">
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project1</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project2</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project3</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project4</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project5</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project6</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project7</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                   <Nav.Link href="#action1" className={styles.navText}>
-        <div className={styles.Sidebtn}>Project8</div>
+        <div className={styles.Sidebtn}>ComingSoon</div>
                     
                   </Nav.Link>
                
