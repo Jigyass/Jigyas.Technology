@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./Home.module.css"
 import SideBar from '../SideBar/SideBar'
 import PDf from "../../Images/Resume_2024.pdf"
-import ProVideo from "../../Images/video.mp4" 
+import ProVideo from "../../Images/Resume_2024.pdf" 
 const Home = () => {
     const handleDownload = () => {
         const pdfUrl = process.env.PUBLIC_URL + PDf;
