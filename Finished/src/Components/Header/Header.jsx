@@ -68,7 +68,7 @@ const Header =  () => {
                   <Nav.Link target='_blank' href="https://github.com/Jigyass" style={{alignSelf:'center'}}>
                     <FaGithub  className={styles.icon} />
                   </Nav.Link>
-                  <Nav.Link target='_blank' href="https://calendly.com/jigyass" style={{alignSelf:'center'}}>
+                  <Nav.Link target='_blank' href="https://calendly.com/jigyas" style={{alignSelf:'center'}}>
                     <SlCalender className={styles.icon}/>
                   </Nav.Link>
                 </Nav>
