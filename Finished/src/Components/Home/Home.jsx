@@ -24,7 +24,7 @@ const Home = () => {
             <source src={ProVideo} type="video/mp4" />
           </video>
           <div className={styles.buttonVideo}>
-            <a href="https://youtube.com">
+            <a href="https://youtu.be/d2TOOVDM-SI?si=-JWqkgzgb_AS0zga">
               <button className={styles.btnHome}>Checkout my video!</button>
             </a>
           </div>
