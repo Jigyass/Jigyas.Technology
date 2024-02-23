@@ -21,7 +21,7 @@ const Header =  () => {
       };
       const handleCallClick = () => {
         console.log("Call icon clicked");
-        window.location.href = 'tel:+13108674475';
+        window.location.href = 'tel:+19719858869';
       };
       const handleDownload = () => {
         const pdfUrl = process.env.PUBLIC_URL + PDf;
