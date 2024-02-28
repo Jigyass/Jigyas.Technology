@@ -4,7 +4,7 @@ import SideBar from '../SideBar/SideBar';
 import PDf from "../../Images/Resume_2024.pdf";
 
 // Placeholder for the actual HTTPS URL to your S3-hosted video
-const videoUrl = "s3://jigyasnetvideo/Heap Sort Explained Visually and C++ Implementation.mp4";
+const videoUrl = "https://jigyasnetvideo.s3.amazonaws.com/Heap+Sort+Explained+Visually+and+C%2B%2B+Implementation.mp4";
 
 const Home = () => {
     const handleDownload = () => {
