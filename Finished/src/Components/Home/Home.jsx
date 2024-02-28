@@ -3,6 +3,8 @@ import styles from "./Home.module.css"
 import SideBar from '../SideBar/SideBar'
 import PDf from "../../Images/Resume_2024.pdf"
 import ProVideo from "../../Images/Resume_2024.pdf" 
+
+const videoUrl = "s3://jigyasnetvideo/Heap Sort Explained Visually and C++ Implementation.mp4"; 
 const Home = () => {
     const handleDownload = () => {
         const pdfUrl = process.env.PUBLIC_URL + PDf;
@@ -18,17 +20,19 @@ const Home = () => {
     <div className={styles.homeMain}>
         <SideBar/>
         <div className={styles.homeContainer}>
-        <div className={styles.videoMain}>
-          <div className={styles.videoContainer}>
-          <video  width="900" controls>
-            <source src={ProVideo} type="video/mp4" />
-          </video>
-          <div className={styles.buttonVideo}>
-            <a href="https://youtu.be/d2TOOVDM-SI?si=-JWqkgzgb_AS0zga">
-              <button className={styles.btnHome}>Checkout my video!</button>
-            </a>
-          </div>
-          </div>
+            <div className={styles.videoMain}>
+                <div className={styles.videoContainer}>
+                    <video width="900" controls>
+                        <source src={videoUrl} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <div className={styles.buttonVideo}>
+                        <a href="https://youtu.be/d2TOOVDM-SI?si=-JWqkgzgb_AS0zga">
+                            <button className={styles.btnHome}>Checkout my video!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
  
         I am a Master of Science in Computer Science student at the University of Kansas with a 4.0 GPA, deeply engaged in the fields of Data Privacy and Security, Autonomous Driving Software, and Machine Learning. My academic achievements are marked by my high GPA and a solid foundation in subjects like Computer Vision, Cryptography, and Data Security.
 <br /><br/>
