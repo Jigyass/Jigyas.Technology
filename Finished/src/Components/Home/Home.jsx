@@ -27,7 +27,7 @@ const Home = () => {
                             Your browser does not support the video tag.
                         </video>
                         <div className={styles.buttonVideo}>
-                            <a href="https://youtu.be/d2TOOVDM-SI?si=-JWqkgzgb_AS0zga">
+                            <a href="https://youtu.be/P2gnRa1QY38?si=aB9mB9WSV_CG3XV5">
                                 <button className={styles.btnHome}>Checkout my video!</button>
                             </a>
                         </div>
