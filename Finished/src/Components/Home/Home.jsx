@@ -32,7 +32,6 @@ const Home = () => {
                             </a>
                         </div>
                     </div>
-                </div>
         I am a Master of Science in Computer Science student at the University of Kansas with a 4.0 GPA, deeply engaged in the fields of Data Privacy and Security, Autonomous Driving Software, and Machine Learning. My academic achievements are marked by my high GPA and a solid foundation in subjects like Computer Vision, Cryptography, and Data Security.
 <br /><br/>
 In my role as a Graduate Research Assistant, I have focused on exploring vulnerabilities in machine learning systems, specifically in data privacy and security. My research uses SHAP analysis to identify critical features in ML decision-making processes, aiming for publication at AAAI 2024. This work showcases my dedication to advancing knowledge in AI security and ethics.
