@@ -17,7 +17,7 @@ import "./Header.css"
 const Header =  () => {
     const handleClick = () => {
         console.log("Email icon clicked");
-        window.location.href = 'mailto:engineer@icloud.com';
+        window.location.href = 'mailto:jigyas@icloud.com';
       };
       const handleCallClick = () => {
         console.log("Call icon clicked");
